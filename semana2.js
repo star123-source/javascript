@@ -16,17 +16,16 @@ const remover = (lista) => {
 
     }
 
+let frutas = ["Uva", "Limão", "Abacaxi"]
+frutas = remover(frutas, "Uva")
+console.log(frutas)
+shift()
+
 const ordemUltimoParaPrimeiro = (lista) => {
     let temp = lista[0]
     lista[0] = lista[-1]
     lista[-1] = temp
     return lista
 }
-
-
-let frutas = ["Uva", "Limão", "Abacaxi"]
-frutas = remover(frutas, "Uva")
-console.log(frutas)
-shift()
 
 
