@@ -18,7 +18,8 @@ const remover = (lista) => {
 
 const ordemUltimoParaPrimeiro = (lista) => {
     let temp = lista[0]
-    lista[0] = lista[-1] = temp
+    lista[0] = lista[-1]
+    lista[-1] = temp
     return lista
 }
 
